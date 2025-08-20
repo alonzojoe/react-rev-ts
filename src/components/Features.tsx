@@ -1,4 +1,5 @@
 import SectionHeader from "./SectionHeader";
+import Overlay from "./Overlay";
 import { HEADER_CONTENT } from "../constants";
 import { FEATURES } from "../constants";
 const Features = () => {
@@ -23,6 +24,7 @@ const Features = () => {
           </div>
         ))}
       </div>
+      <Overlay />
     </div>
   );
 };
