@@ -25,7 +25,7 @@ const Header = () => {
         </div>
       </div>
       <img
-        className="mt-20 md:mt-0 md:w-auto w-[400px]"
+        className="mt-20 md:mt-0 md:w-auto w-[400px] animate-rotate"
         src={HomeImg}
         alt="Home-Img"
         loading="lazy"
