@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Partners from "./components/Partners";
 import Features from "./components/Features";
+import Stats from "./components/Stats";
 function App() {
   return (
     <div className="w-full flex flex-col">
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Partners />
       <Features />
+      <Stats />
     </div>
   );
 }
