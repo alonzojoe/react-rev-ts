@@ -13,7 +13,10 @@ const Features = () => {
       />
       <div className="w-full flex md:flex-row flex-col items-center justify-center gap-[24px]">
         {FEATURES.map((f, index) => (
-          <div className="w-fit px-[50px] rounded-[12px] bg-white/4 border border-grayborder py-[50px] flex flex-col gap-[35px] items-center justify-center">
+          <div
+            key={index}
+            className="w-fit px-[50px] rounded-[12px] bg-white/4 border border-grayborder py-[50px] flex flex-col gap-[35px] items-center justify-center"
+          >
             <img src={f.icon} alt={`${f.title}-index`} key={index} />
             <div className="flex flex-col gap-4 items-center justify-center">
               <span className="text-light text-[20px]">{f.title}</span>

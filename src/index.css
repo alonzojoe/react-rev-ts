@@ -12,6 +12,7 @@
     --color-grayborder: #4d4d4d;
     --color-overlay: #4a5aec;
     --animate-marquee: marquee 35s linear infinite;
+    --animate-rotate: rotate 5s linear infinite;
 
     @keyframes marquee {
         0% {
@@ -20,6 +21,17 @@
 
         100% {
             transform: translateX(-50%);
+        }
+    }
+
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
         }
     }
 }
