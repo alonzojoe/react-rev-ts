@@ -22,13 +22,13 @@ export const NAV_ITEMS = [
 export const FEATURES = [
     { title: "Scalability", description: "Adapt and grow, no matter the demand on grow", icon: f1 },
     {
-        title: "Decentralisation",
+        title: "Decentralization",
         description: "Decentralization. Web3 aims to move away from the centralized",
         icon: f2,
     },
     {
         title: "Connectivity",
-        description: "computers will be able to understand information similarly to humans",
+        description: "Computers will be able to understand information similarly to humans",
         icon: f3,
     },
 ]
