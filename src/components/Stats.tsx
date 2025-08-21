@@ -11,8 +11,11 @@ const Stats = () => {
         description={HEADER_CONTENT["Stats"].description}
       />
       <div className="w-full flex md:flex-row flex-col items-center justify-center gap-[72px]">
-        {STATS.map((s) => (
-          <div className="flex flex-col gap-5 items-center justify-center">
+        {STATS.map((s, index) => (
+          <div
+            key={index}
+            className="flex flex-col gap-5 items-center justify-center"
+          >
             <span className="text-primary text-[50px]">{s.value}</span>
             <span className="text-gray1 text-[20px]">{s.title}</span>
           </div>
