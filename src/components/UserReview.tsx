@@ -8,7 +8,7 @@ const UserReview = () => {
         for optimal inbox timing"
       </p>
       <div className="flex items-center gap-4">
-        <img src={User} alt={`user`} />
+        <img src={User} alt={`user`} className="h-[50px] w-[50px]" />
         <div className="flex flex-col">
           <span className="text-white text-sm">Joe Alonzo</span>
           <span className="text-gray2 text-[12px]">Co-Founder</span>

@@ -6,9 +6,9 @@ type MarqueeRowProps = {
 };
 
 const MarqueeRow = ({ offset = 0, prefix = "marquee" }: MarqueeRowProps) => {
-  const items = [
-    ...Array(20).map((_, index) => <UserReview key={`${prefix}-${index}`} />),
-  ];
+  const items = [...Array(20)].map((_, index) => (
+    <UserReview key={`${prefix}-${index}`} />
+  ));
   return (
     <div className="relative flex overflow-hidden w-full">
       <div

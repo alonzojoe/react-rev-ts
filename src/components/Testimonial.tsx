@@ -1,4 +1,5 @@
 import SectionHeader from "./SectionHeader";
+import MarqueeRow from "./MarqueeRow";
 import { HEADER_CONTENT } from "../constants";
 const Testimonial = () => {
   return (
@@ -10,7 +11,8 @@ const Testimonial = () => {
         description={HEADER_CONTENT["Testimonial"].description}
       />
       <div className="w-full flex flex-col gap-4 overflow-hidden">
-        
+        <MarqueeRow prefix="marquee1" />
+        <MarqueeRow prefix="rev" offset={200} />
       </div>
     </div>
   );
