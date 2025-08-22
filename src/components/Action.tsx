@@ -9,6 +9,9 @@ const Action = () => {
         title={HEADER_CONTENT["Action"].title}
         description={HEADER_CONTENT["Action"].description}
       />
+      <button className="bg-primary cursor-pointer text-center w-[150px] h-[50px] text-black">
+        Get Started
+      </button>
     </div>
   );
 };
