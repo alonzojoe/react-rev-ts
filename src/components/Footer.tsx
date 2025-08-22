@@ -17,6 +17,14 @@ const Footer = () => {
             </div>
           </div>
         ))}
+        <div className="flex flex-col gap-6">
+          <span className="text-light text-[20px] md:max-w-[250px]">
+            Join our mailing list for updates
+          </span>
+          <div className="flex md:flex-row flex-col md:items-center gap-5">
+            <input type="email" placeholder="Your email address" />
+          </div>
+        </div>
       </div>
     </div>
   );
