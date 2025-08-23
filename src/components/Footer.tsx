@@ -34,6 +34,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="w-full flex items-center justify-center text-[12px] text-gray1">
+        &copy; 2025 All rights reserved.
+      </div>
     </div>
   );
 };
